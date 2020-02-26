@@ -42,3 +42,40 @@
 - 坏味道代码片段不能是出自`cc.xpbootcamp.code_smell_recognise`中的代码。
 - 代码片段使用注释标注说明坏味道的腐烂点
 
+
+
+
+| 编号 | 坏味道名称 | 腐烂点 |
+|:-------------|:---------------|:-------------|
+| $1 | 纯数据类 | `CartItem()` |
+| $2 | 重复的switch | `CheckInSystem.checkIn()` |
+| $3 | 依恋情结 | `Customer.statement()` |
+| $4 | 霰弹式修改 | `Transfer.sendTotification()` |
+| $5 | 循环语句 | `CollectionCalculate.filterEvenNumber()` |
+| $6 | 被拒绝的遗赠 | `Animal` |
+| $7 | 死代码 | `Demo;User` |
+| $8 | 全局数据 | `Application` |
+| $9 | 冗赘的元素 | `RoomType.type` |
+| $10 |  过长的函数 | `OrderReceipt.printReceipt()` |
+| $11 | 夸夸其谈通用性 | `HumanAble` |
+| $12 | 神秘命名 | `LineItem` |
+| $13 | 注释 | `User` |
+| $14 | 临时字段 | `StorageManger.productBatchesToExpired` |
+| $15 | 可变的数据 | `ShoppingCart.totalPrice` |
+| $16 | 数据泥团 | `Order.buyer` |
+| $17 | 中间人 | `Person.getManager()` |
+| $18 | 重复代码 | `Receipt.getReceiptString()` |
+| $19 | 过长的函数 | `Poker.compairResult();Poker.noOrRepeatNumber()` |
+| $20 | 基本类型偏执 | `DeliveryManager.toAddress;DeliveryManager.fromAddress` |
+| $21 | 过长的消息链 | `DiseaseControlCenter.hasPatient()` |
+| $22 | 内幕交易 | `License.getSummary();Motorist.getRiskFactor()` |
+| $23 | 异曲同工的类 | `IPChecker.checkIP();IPValidator.isValidIp()` |
+| $24 | 发散式变化 | `Account.toXml();Account.credit()` |
+
+
+
+
+
+
+
+
